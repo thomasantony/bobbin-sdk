@@ -1,7 +1,7 @@
 (board
     (name frdm-ke02z40m)
+    (target thumbv6m-none-eabi)
     (mcu mke02z4)
-    (target thumbv6em-none-eabi)
     (crate 
         (name k64) 
         (as mcu)

@@ -8,7 +8,7 @@ SAM_ARGS=--crate --cargo-template bobbin-sam/template
 
 build: bobbin-cortexm bobbin-kinetis bobbin-sam bobbin-stm32
 
-bobbin-kinetis: kinetis-common k64
+bobbin-kinetis: kinetis-common k64 mke02z4
 
 bobbin-sam: sam-common samd21
 
