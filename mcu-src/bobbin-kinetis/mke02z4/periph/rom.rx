@@ -56,7 +56,7 @@
         )
     )
     (register
-        (name "PERIPHID%S")
+        (name "PERIPHID")
         (offset 0xfd0)
         (size 0x20)
         (access read-only)
@@ -75,7 +75,7 @@
         )
     )
     (register
-        (name "COMPID%S")
+        (name "COMPID")
         (offset 0xff0)
         (size 0x20)
         (access read-only)

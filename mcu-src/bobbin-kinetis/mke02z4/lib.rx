@@ -2,6 +2,21 @@
     (name MKE02Z4)
     (vendor "NXP Semiconductors")
     (description "MKE02Z4 NXP Microcontroller")
+    (crate
+        (name "kinetis-common")
+        (module (name bobbin_bits))
+        (module (name bobbin_mcu))
+        (module (name bobbin_hal))
+        (module (name bobbin_sys))
+        (module (name nvic))
+        (module (name scb))
+        (module (name systick))
+        (module (name mpu))
+        (module (name fpu))
+        (module (name dcb))
+        (module (name itm))
+    )    
+
     (peripheral-group
         ; signature: 706468c49f91ee40
         (name FTMRH)

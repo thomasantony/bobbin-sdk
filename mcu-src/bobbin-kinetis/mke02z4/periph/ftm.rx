@@ -174,7 +174,7 @@
         )
     )
     (register
-        (name "C%SSC")
+        (name "CSC")
         (offset 0xc)
         (size 0x20)
         (access read-write)
@@ -248,7 +248,7 @@
         )
     )
     (register
-        (name "C%SV")
+        (name "CV")
         (offset 0x10)
         (size 0x20)
         (access read-write)

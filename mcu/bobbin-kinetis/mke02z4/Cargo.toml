@@ -1,0 +1,14 @@
+[package]
+name = "mke02z4"
+version = "0.1.0"
+build = "build.rs"
+
+[build-dependencies]
+bobbin-build = { path = "../../../lib/bobbin-build/" }
+
+[dependencies]
+kinetis-common = { path = "../kinetis-common" }
+
+[features]
+default = []
+

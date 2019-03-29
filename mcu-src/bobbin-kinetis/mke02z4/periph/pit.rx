@@ -51,7 +51,7 @@
         )
     )
     (register
-        (name "LDVAL%S")
+        (name "LDVAL")
         (offset 0x100)
         (size 0x20)
         (access read-write)
@@ -70,7 +70,7 @@
         )
     )
     (register
-        (name "CVAL%S")
+        (name "CVAL")
         (offset 0x104)
         (size 0x20)
         (access read-only)
@@ -89,7 +89,7 @@
         )
     )
     (register
-        (name "TCTRL%S")
+        (name "TCTRL")
         (offset 0x108)
         (size 0x20)
         (access read-write)
@@ -152,7 +152,7 @@
         )
     )
     (register
-        (name "TFLG%S")
+        (name "TFLG")
         (offset 0x10c)
         (size 0x20)
         (access read-write)

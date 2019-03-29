@@ -1,4 +1,4 @@
-CHIP=bobbin-chip
+CHIP=../dsl/target/debug/bobbin-chip
 CHIP_ARGS="--build"
 STM32_ARGS=--crate --cargo-template bobbin-stm32/template
 KINETIS_ARGS=--crate --cargo-template bobbin-kinetis/template

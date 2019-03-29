@@ -1,6 +1,6 @@
 MAKE = make
 
-SUBDIRS = kinetis-common k64
+SUBDIRS = kinetis-common k64 mke02z4
 
 CLEANDIRS = $(SUBDIRS:%=clean-%)
 

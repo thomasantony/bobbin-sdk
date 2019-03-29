@@ -1412,7 +1412,7 @@
           <dim>2</dim>
           <dimIncrement>0x10</dimIncrement>
           <dimIndex>0,1</dimIndex>
-          <name>LDVAL%s</name>
+          <name>LDVAL</name>
           <description>Timer Load Value Register</description>
           <addressOffset>0x100</addressOffset>
           <size>32</size>
@@ -1433,7 +1433,7 @@
           <dim>2</dim>
           <dimIncrement>0x10</dimIncrement>
           <dimIndex>0,1</dimIndex>
-          <name>CVAL%s</name>
+          <name>CVAL</name>
           <description>Current Timer Value Register</description>
           <addressOffset>0x104</addressOffset>
           <size>32</size>
@@ -1454,7 +1454,7 @@
           <dim>2</dim>
           <dimIncrement>0x10</dimIncrement>
           <dimIndex>0,1</dimIndex>
-          <name>TCTRL%s</name>
+          <name>TCTRL</name>
           <description>Timer Control Register</description>
           <addressOffset>0x108</addressOffset>
           <size>32</size>
@@ -1525,7 +1525,7 @@
           <dim>2</dim>
           <dimIncrement>0x10</dimIncrement>
           <dimIndex>0,1</dimIndex>
-          <name>TFLG%s</name>
+          <name>TFLG</name>
           <description>Timer Flag Register</description>
           <addressOffset>0x10C</addressOffset>
           <size>32</size>
@@ -1758,7 +1758,7 @@
           <dim>8</dim>
           <dimIncrement>0x8</dimIncrement>
           <dimIndex>0,1,2,3,4,5,6,7</dimIndex>
-          <name>C%sSC</name>
+          <name>CSC</name>
           <description>Channel (n) Status And Control</description>
           <addressOffset>0xC</addressOffset>
           <size>32</size>
@@ -1838,7 +1838,7 @@
           <dim>8</dim>
           <dimIncrement>0x8</dimIncrement>
           <dimIndex>0,1,2,3,4,5,6,7</dimIndex>
-          <name>C%sV</name>
+          <name>CV</name>
           <description>Channel (n) Value</description>
           <addressOffset>0x10</addressOffset>
           <size>32</size>
@@ -5160,7 +5160,7 @@
           <dim>8</dim>
           <dimIncrement>0x8</dimIncrement>
           <dimIndex>0,1,2,3,4,5,6,7</dimIndex>
-          <name>C%sSC</name>
+          <name>CSC</name>
           <description>Channel (n) Status And Control</description>
           <addressOffset>0xC</addressOffset>
           <size>32</size>
@@ -5240,7 +5240,7 @@
           <dim>8</dim>
           <dimIncrement>0x8</dimIncrement>
           <dimIndex>0,1,2,3,4,5,6,7</dimIndex>
-          <name>C%sV</name>
+          <name>CV</name>
           <description>Channel (n) Value</description>
           <addressOffset>0x10</addressOffset>
           <size>32</size>
@@ -8562,7 +8562,7 @@
           <dim>8</dim>
           <dimIncrement>0x8</dimIncrement>
           <dimIndex>0,1,2,3,4,5,6,7</dimIndex>
-          <name>C%sSC</name>
+          <name>CSC</name>
           <description>Channel (n) Status And Control</description>
           <addressOffset>0xC</addressOffset>
           <size>32</size>
@@ -8642,7 +8642,7 @@
           <dim>8</dim>
           <dimIncrement>0x8</dimIncrement>
           <dimIndex>0,1,2,3,4,5,6,7</dimIndex>
-          <name>C%sV</name>
+          <name>CV</name>
           <description>Channel (n) Value</description>
           <addressOffset>0x10</addressOffset>
           <size>32</size>
@@ -31066,7 +31066,7 @@
           <dim>8</dim>
           <dimIncrement>0x4</dimIncrement>
           <dimIndex>4,5,6,7,0,1,2,3</dimIndex>
-          <name>PERIPHID%s</name>
+          <name>PERIPHID</name>
           <description>Peripheral ID Register</description>
           <addressOffset>0xFD0</addressOffset>
           <size>32</size>
@@ -31087,7 +31087,7 @@
           <dim>4</dim>
           <dimIncrement>0x4</dimIncrement>
           <dimIndex>0,1,2,3</dimIndex>
-          <name>COMPID%s</name>
+          <name>COMPID</name>
           <description>Component ID Register</description>
           <addressOffset>0xFF0</addressOffset>
           <size>32</size>

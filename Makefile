@@ -1,6 +1,6 @@
 .PHONY: dsl mcu-src mcu board-src board app periph-src periph
 
-all: dsl mcu board app periph
+all: dsl mcu-src mcu board app periph
 
 dsl:
 	make -C dsl/
