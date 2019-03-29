@@ -1,0 +1,327 @@
+(device
+    (name MKE02Z4)
+    (vendor "NXP Semiconductors")
+    (description "MKE02Z4 NXP Microcontroller")
+    (peripheral-group
+        ; signature: 706468c49f91ee40
+        (name FTMRH)
+        (prototype "periph/ftmrh.rx")
+        (peripheral
+            (name FTMRH)
+            (address 0x40020000)
+            (interrupt
+                (name FTMRH)
+                (value 5)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: f46d0bb4887186e2
+        (name IRQ)
+        (prototype "periph/irq.rx")
+        (peripheral
+            (name IRQ)
+            (address 0x40031000)
+        )
+    )
+    (peripheral-group
+        ; signature: 7f82ac14264392dd
+        (name CRC)
+        (prototype "periph/crc.rx")
+        (peripheral
+            (name CRC)
+            (address 0x40032000)
+        )
+    )
+    (peripheral-group
+        ; signature: 4fcebd7f734188ca
+        (name PIT)
+        (prototype "periph/pit.rx")
+        (peripheral
+            (name PIT)
+            (address 0x40037000)
+            (interrupt
+                (name PIT_CH0)
+                (value 22)
+            )
+            (interrupt
+                (name PIT_CH1)
+                (value 23)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: d7fba4219389e6fc
+        (name FTM)
+        (prototype "periph/ftm.rx")
+        (peripheral
+            (name FTM0)
+            (address 0x40038000)
+            (interrupt
+                (name FTM0)
+                (value 17)
+            )
+        )
+        (peripheral
+            (name FTM1)
+            (address 0x40039000)
+            (interrupt
+                (name FTM1)
+                (value 18)
+            )
+        )
+        (peripheral
+            (name FTM2)
+            (address 0x4003a000)
+            (interrupt
+                (name FTM2)
+                (value 19)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: 0f839cbc1634384e
+        (name ADC)
+        (prototype "periph/adc.rx")
+        (peripheral
+            (name ADC)
+            (address 0x4003b000)
+            (interrupt
+                (name ADC)
+                (value 15)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: f59c07d54d3dd2ab
+        (name RTC)
+        (prototype "periph/rtc.rx")
+        (peripheral
+            (name RTC)
+            (address 0x4003d000)
+            (interrupt
+                (name RTC)
+                (value 20)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: 78f5fae87503bd4a
+        (name SIM)
+        (prototype "periph/sim.rx")
+        (peripheral
+            (name SIM)
+            (address 0x40048000)
+        )
+    )
+    (peripheral-group
+        ; signature: 3e1be7634f807d2a
+        (name PORT)
+        (prototype "periph/port.rx")
+        (peripheral
+            (name PORT)
+            (address 0x40049000)
+        )
+    )
+    (peripheral-group
+        ; signature: cda358f20931e975
+        (name WDOG)
+        (prototype "periph/wdog.rx")
+        (peripheral
+            (name WDOG)
+            (address 0x40052000)
+            (interrupt
+                (name WDOG)
+                (value 28)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: 8ed7f2d68485544f
+        (name ICS)
+        (prototype "periph/ics.rx")
+        (peripheral
+            (name ICS)
+            (address 0x40064000)
+            (interrupt
+                (name ICS)
+                (value 27)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: 938dec78554c8d9f
+        (name OSC)
+        (prototype "periph/osc.rx")
+        (peripheral
+            (name OSC)
+            (address 0x40065000)
+        )
+    )
+    (peripheral-group
+        ; signature: dbf98df04126fd7d
+        (name I2C0)
+        (prototype "periph/i2c0.rx")
+        (peripheral
+            (name I2C0)
+            (address 0x40066000)
+            (interrupt
+                (name I2C0)
+                (value 8)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: a1d3de4c888af8b9
+        (name UART)
+        (prototype "periph/uart.rx")
+        (peripheral
+            (name UART0)
+            (address 0x4006a000)
+            (interrupt
+                (name UART0)
+                (value 12)
+            )
+        )
+        (peripheral
+            (name UART1)
+            (address 0x4006b000)
+            (interrupt
+                (name UART1)
+                (value 13)
+            )
+        )
+        (peripheral
+            (name UART2)
+            (address 0x4006c000)
+            (interrupt
+                (name UART2)
+                (value 14)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: 4f4aea0eeb7c66c9
+        (name ACMP)
+        (prototype "periph/acmp.rx")
+        (peripheral
+            (name ACMP0)
+            (address 0x40073000)
+            (interrupt
+                (name ACMP0)
+                (value 16)
+            )
+        )
+        (peripheral
+            (name ACMP1)
+            (address 0x40074000)
+            (interrupt
+                (name ACMP1)
+                (value 21)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: 4f4cf3220058ceab
+        (name SPI)
+        (prototype "periph/spi.rx")
+        (peripheral
+            (name SPI0)
+            (address 0x40076000)
+            (interrupt
+                (name SPI0)
+                (value 10)
+            )
+        )
+        (peripheral
+            (name SPI1)
+            (address 0x40077000)
+            (interrupt
+                (name SPI1)
+                (value 11)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: d917ade3364711f3
+        (name KBI)
+        (prototype "periph/kbi.rx")
+        (peripheral
+            (name KBI0)
+            (address 0x40079000)
+            (interrupt
+                (name KBI0)
+                (value 24)
+            )
+        )
+        (peripheral
+            (name KBI1)
+            (address 0x4007a000)
+            (interrupt
+                (name KBI1)
+                (value 25)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: 491bd4bf8e18dbb2
+        (name PMC)
+        (prototype "periph/pmc.rx")
+        (peripheral
+            (name PMC)
+            (address 0x4007d000)
+            (interrupt
+                (name PMC)
+                (value 6)
+            )
+        )
+    )
+    (peripheral-group
+        ; signature: bc846d45d83d08f4
+        (name GPIO)
+        (prototype "periph/gpio.rx")
+        (peripheral
+            (name GPIOA)
+            (address 0x400ff000)
+            (interrupt
+                (name IRQ)
+                (value 7)
+            )
+        )
+        (peripheral
+            (name GPIOB)
+            (address 0x400ff040)
+        )
+    )
+    (peripheral-group
+        ; signature: 49804cfaee5143da
+        (name ROM)
+        (prototype "periph/rom.rx")
+        (peripheral
+            (name ROM)
+            (address 0xf0002000)
+        )
+    )
+    (peripheral-group
+        ; signature: 0a3937df78b5b9bf
+        (name MCM)
+        (prototype "periph/mcm.rx")
+        (peripheral
+            (name MCM)
+            (address 0xf0003000)
+        )
+    )
+    (peripheral-group
+        ; signature: 9529d1632653af30
+        (name FGPIO)
+        (prototype "periph/fgpio.rx")
+        (peripheral
+            (name FGPIOA)
+            (address 0xf8000000)
+        )
+        (peripheral
+            (name FGPIOB)
+            (address 0xf8000040)
+        )
+    )
+)

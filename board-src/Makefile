@@ -16,6 +16,9 @@ feather-m0: feather-m0.rx
 frdm-k64f: frdm-k64f.rx
 	$(CHIP) $(CHIP_ARGS_THUMBV7) $< $(BOARD_DST)/$@/
 
+frdm-k64f: frdm-ke02z40m.rx
+	$(CHIP) $(CHIP_ARGS_THUMBV7) $< $(BOARD_DST)/$@/
+
 nucleo-l432kc: nucleo-l432kc.rx
 	$(CHIP) $(CHIP_ARGS_THUMBV7) $< $(BOARD_DST)/$@/
 

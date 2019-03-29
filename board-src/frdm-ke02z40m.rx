@@ -1,0 +1,11 @@
+(board
+    (name frdm-ke02z40m)
+    (mcu mke02z4)
+    (target thumbv6em-none-eabi)
+    (crate 
+        (name k64) 
+        (as mcu)
+        (path "../../mcu/bobbin-kinetis/mke02z4")
+        (feature MKE02Z40M)
+    )
+)

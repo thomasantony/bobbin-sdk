@@ -23,6 +23,9 @@ kinetis-common:
 k64:
 	$(CHIP) $(KINETIS_ARGS) bobbin-kinetis/$@/lib.rx ../mcu/bobbin-kinetis/$@/
 
+mke02z4:
+	$(CHIP) $(KINETIS_ARGS) bobbin-kinetis/$@/lib.rx ../mcu/bobbin-kinetis/$@/
+
 sam-common:
 	$(CHIP) --crate --cargo-template bobbin-sam/sam-common/template bobbin-sam/$@/lib.rx ../mcu/bobbin-sam/$@/
 
